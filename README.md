@@ -4,7 +4,7 @@
 
 A machine learning project to predict the probability of borrower default based on financial and demographic features.
 
-## 🚀 Table of Contents
+## Table of Contents
 
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
@@ -92,11 +92,25 @@ Target variable: **`Default`** (0 = no default, 1 = default)
    ```bash
    streamlit run app.py
 
-### Project Structure
+## Project Structure
 
+    .
+    ├── app
+    │   ├── .DS_Store
+    │   └── app.py
+    ├── data
+    │   └── credit_risk_dataset.csv
+    ├── model
+    │   ├── .DS_Store
+    │   └── model.pkl.zip
+    ├── notebooks
+    │   └── train_model.ipynb
+    ├── .DS_Store
+    ├── .gitignore
+    ├── LICENSE
+    └── README.md
 
-
-### License
+## License
 
 This project is licensed under the MIT License.
 
